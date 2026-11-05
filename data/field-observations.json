@@ -77,6 +77,21 @@
       "exactStore": true,
       "exactProduct": false,
       "notes": "Reporter correction: this store had the product."
+    },
+    {
+      "retailer": "Dollar General",
+      "address": "1090 N Broad St",
+      "city": "Hillside",
+      "state": "NJ",
+      "zipCode": "07205",
+      "productLabel": "Pokemon product (exact SKU not provided)",
+      "outcome": "out_of_stock",
+      "observedDate": "2026-11-05",
+      "observedWindow": "mid-morning ET",
+      "sourceType": "first_party_store_visit",
+      "exactStore": true,
+      "exactProduct": false,
+      "notes": "Reporter visited the store and found none. Address confirmed by attached map screenshot."
     }
   ]
 }

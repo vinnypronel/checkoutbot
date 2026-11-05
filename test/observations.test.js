@@ -6,9 +6,9 @@ import { validateFieldObservations } from "../src/observations.js";
 test("seed field observations are valid and deduplicated", async () => {
   const data = JSON.parse(await readFile(new URL("../data/field-observations.json", import.meta.url)));
   assert.deepEqual(validateFieldObservations(data.observations), []);
-  assert.equal(data.observations.length, 5);
+  assert.equal(data.observations.length, 6);
   assert.equal(data.observations.filter((item) => item.outcome === "in_stock").length, 1);
-  assert.equal(data.observations.filter((item) => item.outcome === "out_of_stock").length, 4);
+  assert.equal(data.observations.filter((item) => item.outcome === "out_of_stock").length, 5);
 });
 
 test("exact product claims require a product identifier", () => {
