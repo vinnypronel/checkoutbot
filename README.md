@@ -30,6 +30,19 @@ Retailer price can be compared with a verified resale value using the fee, shipp
 net-profit, and ROI calculations in `src/profit.js`. Active listing prices must not be
 labeled as completed-sale averages.
 
+## In-store confidence
+
+Retailer inventory is treated as a lead, never as proof that an item is physically on
+the shelf. `src/confidence.js` scores timestamped observations and applies freshness
+decay. Exact-store receipt, photo, and staff confirmations rank above retailer feeds;
+two independent reports strengthen confidence. The UI should display `weak signal`,
+`possible`, `probable`, or `high confidence` with the observation time and evidence.
+
+Public social posts may be indexed only when access and site rules permit it. They are
+supporting signals, not verified inventory. Private Discord groups, accounts, or other
+restricted communities must be integrated only with permission. Community submissions
+should retain a source link while avoiding unnecessary personal information.
+
 ```powershell
 npm run check
 ```
