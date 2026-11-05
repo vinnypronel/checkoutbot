@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "observations": [
+    {
+      "retailer": "Dollar General",
+      "address": "108 Chestnut St",
+      "city": "Roselle",
+      "state": "NJ",
+      "zipCode": "07203",
+      "productLabel": "Pokemon product (exact SKU not provided)",
+      "outcome": "out_of_stock",
+      "observedDate": "2026-11-05",
+      "observedWindow": "mid-morning ET",
+      "sourceType": "first_party_store_visit",
+      "exactStore": true,
+      "exactProduct": false,
+      "notes": "Reporter visited the store and found none. Address confirmed by attached map screenshot."
+    },
+    {
+      "retailer": "Dollar General",
+      "address": "801 Livingston St",
+      "city": "Elizabeth",
+      "state": "NJ",
+      "zipCode": "07201",
+      "productLabel": "Pokemon product (exact SKU not provided)",
+      "outcome": "out_of_stock",
+      "observedDate": "2026-11-05",
+      "observedWindow": "mid-morning ET",
+      "sourceType": "first_party_store_visit",
+      "exactStore": true,
+      "exactProduct": false,
+      "notes": "Reporter visited the store and found none. Duplicate screenshots were treated as one visit."
+    },
+    {
+      "retailer": "Dollar General",
+      "storeNumber": "19341",
+      "address": "157 Jefferson Ave",
+      "city": "Elizabeth",
+      "state": "NJ",
+      "zipCode": "07201",
+      "productLabel": "Pokemon product (exact SKU not provided)",
+      "outcome": "out_of_stock",
+      "observedDate": "2026-11-05",
+      "observedWindow": "mid-morning ET",
+      "sourceType": "first_party_store_visit",
+      "exactStore": true,
+      "exactProduct": false,
+      "notes": "Reporter visited the store and found none."
+    },
+    {
+      "retailer": "Dollar General",
+      "address": "6 South Ave E",
+      "city": "Cranford",
+      "state": "NJ",
+      "zipCode": "07016",
+      "productLabel": "Pokemon product (exact SKU not provided)",
+      "outcome": "out_of_stock",
+      "observedDate": "2026-11-05",
+      "observedWindow": "mid-morning ET",
+      "sourceType": "first_party_store_visit",
+      "exactStore": true,
+      "exactProduct": false,
+      "notes": "Reporter visited the store and found none. Address confirmed by attached map screenshot."
+    },
+    {
+      "retailer": "Dollar General",
+      "storeNumber": "12074",
+      "address": "190 Elmora Ave",
+      "city": "Elizabeth",
+      "state": "NJ",
+      "zipCode": "07202",
+      "productLabel": "Pokemon product (exact SKU not provided)",
+      "outcome": "in_stock",
+      "observedDate": "2026-11-05",
+      "observedWindow": "mid-morning ET",
+      "sourceType": "first_party_store_visit",
+      "exactStore": true,
+      "exactProduct": false,
+      "notes": "Reporter correction: this store had the product."
+    }
+  ]
+}

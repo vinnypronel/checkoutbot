@@ -147,6 +147,10 @@ Community reporting is the best path to stronger shelf accuracy. A future submis
 form should let a user select the exact store, scan a UPC, enter shelf quantity, report
 an empty shelf, and optionally attach a timestamped photo or receipt.
 
+The repository includes `data/field-observations.json` for normalized, deduplicated
+first-party store visits. Category-level reports without a UPC or retailer product ID
+must keep `exactProduct` set to `false`; they cannot be promoted to exact-SKU evidence.
+
 Public webpages may be indexed only when access and site rules permit it. Public social
 posts are supporting signals, not verified inventory. DropWatch must not scrape private
 Discord servers, restricted groups, logged-in accounts, or personal information without
