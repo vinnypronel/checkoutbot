@@ -1,7 +1,7 @@
 # Pokemon DropWatch
 
 Pokemon DropWatch is a personal, notification-only inventory monitor for individual
-product pages on Walmart, Target, and Best Buy. It detects availability and price,
+product pages on Walmart, Target, Best Buy, Dollar General, CVS, Lowe's, and Ace Hardware. It detects availability and price,
 sends a Discord alert when a product becomes eligible, and links you to the retailer
 for **manual checkout**.
 
@@ -19,10 +19,16 @@ Requires Node.js 22 or newer. There are no third-party runtime dependencies.
 ```powershell
 Copy-Item .env.example .env
 Copy-Item watchlist.example.json watchlist.json
+Copy-Item region.example.json region.json
 ```
 
 Edit `watchlist.json` with real product URLs and price caps. Add an optional Discord
 webhook to `.env`, then run one check:
+
+The included region template is centered on Elizabeth, NJ 07202 with a 15-mile radius.
+Retailer price can be compared with a verified resale value using the fee, shipping,
+net-profit, and ROI calculations in `src/profit.js`. Active listing prices must not be
+labeled as completed-sale averages.
 
 ```powershell
 npm run check

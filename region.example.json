@@ -1,0 +1,8 @@
+{
+  "center": { "city": "Elizabeth", "state": "NJ", "zipCode": "07202" },
+  "radiusMiles": 15,
+  "priorityTowns": [
+    "Elizabeth", "Linden", "Hillside", "Union", "Irvington", "Newark",
+    "Roselle", "Rahway", "Clark", "Cranford", "Westfield", "Bayonne", "Kearny"
+  ]
+}
