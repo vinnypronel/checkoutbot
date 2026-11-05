@@ -1,0 +1,2 @@
+import { loadSettings } from "./config.js";import { checkOnce,runForever } from "./monitor.js";import { StateStore } from "./state.js";
+try{const settings=await loadSettings();const store=new StateStore(settings.databasePath);await store.load();if(process.argv.includes("--once"))await checkOnce(settings,store);else await runForever(settings,store);}catch(error){console.error(error.message);process.exitCode=1;}
